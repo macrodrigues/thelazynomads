@@ -7,8 +7,8 @@
 
 .navbar-logo {
     margin-left: 3%;
-    margin-top: -2%;
-    margin-bottom: -5.5%;
+    margin-top: -2.5%;
+    margin-bottom: -5.7%;
     display: flex;
     width: 300px
 }
@@ -34,12 +34,24 @@
 
 .nav-link {
     font-family: 'Cutive Mono', monospace;
-    color: black;
+    color: #38A3A5;
+    margin-left: 10px;
     font-weight: 500;
+    font-size: 18px;
 }
 
 .nav-link:hover{
     color: #AACB73;
+}
+
+.navbar-toggler-icon {
+    filter: invert(47%) sepia(97%) saturate(282%) hue-rotate(132deg) brightness(98%) contrast(88%);
+}
+
+.navbar-toggler {
+    color:  #38a3a53c;
+    --bs-navbar-toggler-focus-width: 0.1rem;
+    --bs-navbar-toggler-border-radius: 1.1em;
 }
 
 .icon-style {
