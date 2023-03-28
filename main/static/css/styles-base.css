@@ -1,0 +1,49 @@
+
+/* navbar */
+.navbar-custom {
+    --tw-bg-opacity: 1;
+    background-color: #FEFF86;
+}
+
+.navbar-logo {
+    margin-left: 3%;
+    margin-top: -2%;
+    margin-bottom: -5.5%;
+    display: flex;
+    width: 300px
+}
+
+.navbar-title {
+    margin: auto;
+    margin-left: 2%;
+    font-size: 20px;
+    font-weight: 580;
+    margin-top: 5%;    
+    font-family: 'Cutive Mono', monospace;
+    color: #38A3A5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.navbar-logo-img {
+    filter: invert(47%) sepia(97%) saturate(282%) hue-rotate(132deg) brightness(98%) contrast(88%);
+}
+
+.navbar-title:hover{
+    color: #AACB73;
+}
+
+.nav-link {
+    font-family: 'Cutive Mono', monospace;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: #AACB73;
+}
+
+.icon-style {
+    filter: invert(47%) sepia(97%) saturate(282%) hue-rotate(132deg) brightness(98%) contrast(88%);
+    color: #38A3A5;
+    background-color:#38A3A5;
+}

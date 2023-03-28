@@ -1,0 +1,31 @@
+.bg-main-img {
+    position: relative;
+    display: inline;
+}
+
+.img-over {
+    position: absolute;
+    margin: auto;
+    top: 25vw;
+    width: 32vw;
+    height: 30vw;
+    left: 0;
+    right: 0;
+    filter: invert(47%) sepia(97%) saturate(282%) hue-rotate(132deg) brightness(98%) contrast(88%) opacity(50%);
+}
+
+.bg-title {
+    position: absolute;
+    margin: auto;
+    text-align: -webkit-center;
+    font-size: 2.7vw;
+    font-weight: 500;
+    font-stretch: narrower;
+    top: 29vw;
+    width: 20vw;
+    height: 40vw;
+    left: 39.5vw;
+    z-index: 1;
+    color: #ffff8680;
+    font-family: 'Cutive Mono', monospace;
+}
