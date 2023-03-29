@@ -1,3 +1,4 @@
+/* First Section */
 .bg-main-img {
     position: relative;
     display: inline;
@@ -6,26 +7,84 @@
 .img-over {
     position: absolute;
     margin: auto;
-    top: 25vw;
-    width: 32vw;
-    height: 30vw;
+    top: 39vw;
+    width: 22vw;
+    height: 20vw;
     left: 0;
-    right: 0;
-    filter: invert(47%) sepia(97%) saturate(282%) hue-rotate(132deg) brightness(98%) contrast(88%) opacity(50%);
+    right:0;
+    filter: invert(99%) sepia(8%) saturate(4704%) hue-rotate(346deg) brightness(106%) contrast(105%)  opacity(20%);
 }
 
 .bg-title {
     position: absolute;
     margin: auto;
     text-align: -webkit-center;
-    font-size: 2.7vw;
+    font-size: 2vw;
     font-weight: 500;
     font-stretch: narrower;
-    top: 29vw;
-    width: 20vw;
+    top: 41vw;
+    text-align: center;
+    width: 10vw;
     height: 40vw;
-    left: 39.5vw;
+    left: 44.2vw;
     z-index: 1;
-    color: #ffff8680;
+    color: #38A3A5;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.typewriter-container {
+    position: absolute;
+    top: 8vw;
+    left: 9vw;
+    right: 9vw;
+  }
+  
+.typewriter {
+    text-align: justify;
+    font-family: 'Cutive Mono', monospace;
+    color: #ffff8611;
+    font-size: 2.5vw;
+    background:
+    linear-gradient(-90deg,#ffff86 5px,#0000 0) 10px 0,
+    linear-gradient(#38A3A5 0 0) 0 0;
+    background-size:calc(var(--n)*1ch) 200%;
+    -webkit-background-clip:padding-box,text;
+    background-clip:padding-box,text;
+    background-repeat:no-repeat;
+    animation: 
+    b .7s infinite steps(1),   
+    t calc(var(--n)*0.04s) steps(var(--n)) forwards;
+    }
+  
+  @keyframes t{
+    from {background-size:0 200%}
+  }
+  
+  
+  
+
+/* Thumbnail*/
+
+.wrapper-thumbnail {
+    display: flex;
+}
+
+.images-thumbnail {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.images-thumbnail img {
+    filter: brightness(30%);
+}
+
+.images-thumbnail-text {
+    position: relative;
+    text-align: -webkit-center;
+    font-size: 2.5vw;
+    top: -13vw;
+    left: 0vw;
+    color: #ffff86b4;
     font-family: 'Cutive Mono', monospace;
 }
